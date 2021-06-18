@@ -1,0 +1,154 @@
+.whole-page-container {
+  position: absolute;
+  width:100%;
+  left: 0px;
+  top: 0px;
+  height: 1100px;
+}
+
+.activity-container {
+  position: absolute;
+  width:100%;
+  left: 0px;
+  top: 100px;
+  height: 1600px;
+  background: #151371;
+}
+
+.content-container {
+  position:absolute;
+  width: 75%;
+  height: 500px;
+  left: 25%;
+}
+
+.info-container {
+  position: absolute;
+  width: 75%;
+  height: 1000px;
+  left: 25%;
+  top: 500px;
+
+  background: #151371;
+}
+
+.info-content {
+  position: absolute;
+  width: 80%;
+  height: 950px;
+  left: 10%;
+  top: 100px;
+
+  background: linear-gradient(110.62deg, rgba(255, 255, 255, 0.25) 6.39%, rgba(255, 255, 255, 0) 53.34%);
+  mix-blend-mode: normal;
+
+  border-radius: 32px;
+  border: 1.5px solid #aeaeae;
+}
+
+.activity-header {
+  position: absolute;
+  height: 51px;
+  left: 50px;
+  top: 60px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 92.3%;
+  /* identical to box height, or 51px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.activity-time {
+  position: absolute;
+  height: 28px;
+  left: 50px;
+  top: 135px;
+  
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 92.3%;
+  /* identical to box height, or 28px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+.info-txt {
+  position: absolute;
+  width: 90%;
+  left: 50px;
+  top: 280px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 92.3%;
+  /* or 28px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.progress-btn {
+  position: absolute;
+  width: 218.08px;
+  height: 35px;
+  left: 1876px;
+  top: 1360px;
+
+  border: 4px solid #FF655B;
+  box-sizing: border-box;
+  border-radius: 13px;
+}
+
+.progress-btn-txt {
+  position: absolute;
+  width: 102px;
+  height: 26px;
+  left: 1934px;
+  top: 1365px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+.material-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+.activity-arrow {
+  position:absolute;
+  width: 40px;
+  top: 30px;
+  left: 10%;
+}
+
+.activity-arrow-right {
+  position:absolute;
+  width: 40px;
+  top: 30px;
+  right: 10%;
+  transform: scaleX(-1);
+}

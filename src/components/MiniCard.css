@@ -1,0 +1,206 @@
+.minicard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+
+  position: absolute;
+  width: 328.5px;
+  height: 190.5px;
+  left: 64px;
+  top: 80px;
+
+  background: #FDFCFC;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+
+  border-radius: 15px;
+}
+
+.minicard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: static;
+  width: 280.5px;
+  height: 142.5px;
+  left: 0px;
+  top: 0px;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.minicard-funds-container {
+  position: static;
+  width: 374px;
+  height: 110px;
+  left: 0px;
+  top: 60px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.minicard-fund-amnt {
+  position: absolute;
+  width: 265px;
+  height: 34px;
+  left: 20px;
+  top: 110px;
+  
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 34px;
+  
+  color: #000000;
+}
+
+.minicard-funds {
+  position: absolute;
+  width: 315px;
+  height: 24px;
+  left: 20px;
+  top: 80px;
+}
+
+.minicard-funds-complete {
+  position: absolute;
+  width: 105px;
+  height: 21px;
+  right: 0px;
+  top: 5px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.minicard-fund-head {
+  position: absolute;
+  height: 32px;
+  left: 0px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.minicard-bar{
+  position: absolute;
+  width: 280.5px;
+  height: 15px;
+  left: 20px;
+  top: 150px;
+}
+
+.minicard-bar-left {
+  position: absolute;
+  width: 280.5px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+
+  /* Gray 5 */
+
+  background: #E0E0E0;
+  border-radius: 25.5px;
+}
+
+.minicard-bar-progress {
+  position: absolute;
+  width: 180.5px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+
+  /* Brand Gradient - 1 */
+
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+  border-radius: 25.5px;
+}
+
+.minicard-header {
+  position: absolute;
+  width: 208.5px;
+  height: 48px;
+  left: 20px;
+  top: 5px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.minicard-header-txt {
+  position: absolute;
+  width: 198px;
+  height: 48px;
+  left: 65px;
+  top: 5px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 26px;
+  line-height: 48px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.minicard-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 9px;
+
+  position: absolute;
+  width: 35px;
+  height: 35px;
+
+  background: rgba(227, 227, 227, 0.6);
+  border-radius: 7.5px;
+}
+
+.minicard-img {
+  position: static;
+  width: 35px;
+    
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+}

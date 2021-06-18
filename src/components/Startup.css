@@ -1,0 +1,383 @@
+.startup-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 42px 64px;
+
+  position: absolute;
+  width: 80%;
+  height: 70px;
+  left: 5%;
+  top: 50px;
+
+  background: #FFFFFF;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.startup-header-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 64px;
+
+  position: absolute;
+  width: 160px;
+  height: 45px;
+  right: -70px;
+  /* top: 46px; */
+
+  /* Brand Gradient - 1 */
+
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+  border-radius: 4px;
+  border: transparent;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 136px;
+}
+
+.startup-header-btn-txt {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.startup-header-title{
+  position: static;
+  width: 429px;
+  height: 84px;
+  left: 45.5px;
+  top: 42px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 136px;
+}
+
+.startup-header-txt {
+  position: absolute;
+  width: 229px;
+  height: 53px;
+  left: 180px;
+  top: 50px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 53px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.startup-header-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 7px;
+
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 110px;
+  top: 35px;
+
+  background: rgba(227, 227, 227, 0.6);
+  border-radius: 10px;
+}
+
+.startup-header-img {
+  position: static;
+  /* width: 62px; */
+  /* height: 50px; */
+  /* left: 7px; */
+  /* top: 12px; */
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0px;
+}
+
+.startup-header-arrow{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 30px;
+  top: 50px;
+}
+
+.startup-funds{
+  position: absolute;
+  width: 250px;
+  height: 78px;
+  left: 380px;
+  top: 32px;
+}
+
+.startup-funds-raised{
+  position: absolute;
+  width: 326px;
+  height: 42px;
+  /* left: 610.5px; */
+  top: 30px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+.startup-funds-head {
+  position: absolute;
+  width: 156px;
+  height: 36px;
+  /* left: 610.5px; */
+  top: 10px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.startup-funds-complete {
+  position: absolute;
+  width: 118px;
+  height: 24px;
+  right: 0px;
+  top: 15px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.startup-bar {
+  position: absolute;
+  width: 250px;
+  height: 15px;
+  left: 610px;
+  /* top: 110px; */
+}
+
+.startup-bar-left {
+  position: absolute;
+  width: 250px;
+  height: 15px;
+  /* left: 991.5px; */
+  /* top: 74px; */
+  
+  /* Gray 5 */
+  
+  background: #E0E0E0;
+  border-radius: 12.75px;
+}
+
+.startup-bar-progress {
+  position: absolute;
+  width: 125px;
+  height: 15px;
+  /* left: 991.5px; */
+  /* top: 74px; */
+
+  /* Brand Gradient - 1 */
+
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+  border-radius: 12.75px;
+}
+
+.left-info-box {
+  position: absolute;
+  width: 30%;
+  height: 1104px;
+  left: 5%;
+  top: 230px;
+
+  background: #FFFFFF;
+}
+
+.left-info-subheading{
+  position: absolute;
+  width: 72px;
+  height: 24px;
+  left: 40px;
+  top: 100px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.left-info-txt {
+  position: absolute;
+  width: 331px;
+  height: 40px;
+  left: 40px;
+  top: 200px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.left-info-heading {
+  position: absolute;
+  width: 241px;
+  height: 48px;
+  left: 40px;
+  top: 360px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 48px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.left-heading-founding {
+  position: absolute;
+  height: 40px;
+  top: 20px;
+  left: 40px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.startup-line {
+  position: absolute;
+  width: calc(100% - 2px);
+  height: 0px;
+  top: 80px;
+
+  border: 1px solid #CCCCCC;
+}
+
+.left-info-website {
+  position: absolute;
+  width: 230px;
+  height: 40px;
+  left: 40px;
+  top: 120px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height */
+
+
+  color: #003CD8;
+}
+
+.startup-info-box {
+  position: absolute;
+  width: calc(60% - 30px);
+  height: 580px;
+  left: calc(35% + 30px);
+  top: 230px;
+
+  background: #FFFFFF;
+  overflow:hidden;
+}
+
+.startup-info-txt {
+  position: absolute;
+  width: calc(100% - 80px);
+  left: 40px;
+  top: 80px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 32px; */
+  text-align: justify;
+
+  color: #000000;
+}
+
+.left-black-arrow {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  right: 100px;
+  top: 15px;
+}
+
+.right-black-arrow {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  right: 30px;
+  top: 15px;
+  transform: scaleX(-1);
+}

@@ -1,0 +1,119 @@
+.my-courses-sidebar {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  left: 0px;
+
+  background: #151371;
+  border: 1px solid rgba(129, 162, 178, 0.25);
+  box-sizing: border-box;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.my-courses-sb-courses {
+  position: absolute;
+  width: 132px;
+  height: 33px;
+  left: 50px;
+  top: 50px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 92.3%;
+  /* or 33px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.close-sb-btn {
+  position: absolute;
+  width: 15px;
+  left: 20px;
+  top: 55px;
+}
+
+.sb-current-course {
+  position: absolute;
+  width: 405px;
+  height: 44px;
+  left: 50px;
+  top: 100px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 92.3%;
+  /* or 44px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.sb-week-header {
+  position: absolute;
+  left: 50px;
+  top: 200px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 92.3%;
+  /* or 44px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.sb-course-name {
+  position: absolute;
+  left: 100px;
+  top: 255px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 92.3%;
+  /* identical to box height, or 37px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.circle-comp {
+  position:absolute;
+  height: 30px;
+  width: 30px;
+  top: 250px;
+  left: 50px;
+  background-color: #00AA4F;
+  border-radius: 50%;
+}
+
+/* Source : https://stackoverflow.com/questions/21968531/how-to-draw-a-checkmark-tick-using-css */
+.checkmark {
+  position:absolute;
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 12.5px;
+  width: 6px;
+  left: 10px;
+  top: 5px; 
+  border-bottom: 3.5px solid #FFFFFF;
+  border-right: 3.5px solid #FFFFFF;
+}

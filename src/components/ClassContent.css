@@ -1,0 +1,71 @@
+.class-content-container {
+  position: absolute;
+  width: 692.25px;
+  height: 135.5px;
+  left: calc(50% - 346.125px);
+  top: 50px;
+
+  background: linear-gradient(110.62deg, rgba(255, 255, 255, 0.25) 6.39%, rgba(255, 255, 255, 0) 53.34%);
+  mix-blend-mode: normal;
+
+  border-radius: 21px;
+  border: 1.5px solid #aeaeae
+}
+
+.class-content-title {
+  position: absolute;
+  width: 70%;
+  /* height: 51px; */
+  left: 200px;
+  top: 45px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 92.3%;
+  /* identical to box height, or 51px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.class-earn-btn {
+  position: absolute;
+  width: 145.4px;
+  height: 23.33px;
+  right: 10px;
+  top: 10px;
+
+  background: #00AA4F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8.66px;
+}
+
+.class-earn-txt {
+  position: absolute;
+  /* width: 103px; */
+  /* height: 26px; */
+  left: 44px;
+  top: 2px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  /* line-height: 26px; */
+
+  color: #FFFFFF;
+}
+
+.class-img {
+  position: absolute;
+  width: 162px;
+  height: 97.5px;
+  left:15px;
+  top: 20px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

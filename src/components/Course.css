@@ -1,0 +1,196 @@
+.course {
+  position: absolute;
+  width: 386px;
+  height: 245.5px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(110.62deg, rgba(255, 255, 255, 0.25) 6.39%, rgba(255, 255, 255, 0) 53.34%);
+  mix-blend-mode: normal;
+
+  border:1.5px solid #c0c0c0;
+  border-radius: 16px;
+}
+
+.course-header {
+  position: absolute;
+  width: 540px;
+  height: 59px;
+  left: 20px;
+  top: 0px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 36px;
+  line-height: 92.3%;
+  /* identical to box height, or 59px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.course-txt {
+  position: absolute;
+  width: 668px;
+  height: 33px;
+  left: 20px;
+  top: 60px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 92.3%;
+  /* or 33px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.course-learn-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 64px;
+
+  position: absolute;
+  width: 156px;
+  height: 38px;
+  left: 120px;
+  top: 125px;
+
+  /* Brand Gradient - 1 */
+
+  background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+  border-radius: 15px;  
+  border:0px;
+
+  cursor: pointer;
+}
+
+.course-learn-btn-txt {
+  position: static;
+  width: 99px;
+  height: 48px;
+  left: 106.5px;
+  top: 14px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.course-earn-btn {
+  position: absolute;
+  width: 109px;
+  height: 17.5px;
+  right: 7px;
+  top: 7px;
+
+  background: #9CFF83;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6.5px;
+  border:0px;
+}
+
+.course-earn-btn-txt {
+  position: absolute;
+  left: 35px;
+  top: 1.5px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+
+  color: #000000;
+}
+
+.course-modules-txt {
+  position: absolute;
+  width: 244px;
+  height: 39px;
+  left: 240px;
+  top: 150px;
+  
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  
+  color: #FFFFFF;
+}
+
+.course-percent-txt {
+  position: absolute;
+  width: 172px;
+  height: 26px;
+  left: 150px;
+  top: 200px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #FFFFFF;
+}
+
+.course-bar {
+  position: absolute;
+  width: 312.5px;
+  height: 6.83px;
+  left: 35px;
+  top: 205px;
+}
+
+.course-bar-left {
+  position: absolute;
+  width: 312.5px;
+  height: 6.58px;
+  left: 0px;
+  top: 0px;
+
+  background: #EAEAEA;
+  border-radius: 10px;
+}
+
+.course-bar-progress {
+  position: absolute;
+  width: 259.375px;
+  height: 6.83px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(90deg, #FFC700 0%, #FF655B 49.48%, #FF00B8 100%);
+  border-radius: 10px;
+}

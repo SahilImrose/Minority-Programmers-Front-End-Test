@@ -1,0 +1,150 @@
+.my-courses{
+  position: absolute;
+  width: 100%;
+  height: 1500px;
+  left: 0px;
+  top: 100px;
+  overflow-x: hidden;
+
+  background: linear-gradient(90deg, #FF00B8 -0.69%, #FF655B 50.18%, #FFC700 100%);
+}
+
+.my-courses-icon-container {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 30%;
+  top: 100px;
+}
+
+.circle-border {
+  width:100%;
+}
+
+.char-icon {
+  position:absolute;
+  width:85%;
+  left:20px;
+  top: 20px
+}
+
+.welcome-txt {
+  position: absolute;
+  width: 350px;
+  height: 80px;
+  left: 750px;
+  top: 100px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 92.3%;
+  /* or 89px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.total-progress-txt {
+  position: absolute;
+  width: 348px;
+  height: 44px;
+  left: 750px;
+  top: 190px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 92.3%;
+  /* or 44px */
+
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+.resume-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 64px;
+
+  position: absolute;
+  width: 249.33px;
+  height: 60px;
+  left: 850px;
+  top: 325px;
+
+  background: linear-gradient(0deg, #151371, #151371);
+  border-radius: 20px;
+  border:transparent;
+
+  cursor:pointer;
+}
+
+.resume-txt {
+  position: static;
+  width: 138px;
+  height: 48px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.my-courses-container {
+  position: absolute;
+  width: 75%;
+  height: 1000px;
+  left: 25%;
+  top: 500px;
+
+  background: #151371;
+}
+
+.my-courses-header {
+  position: absolute;
+  left: 75px;
+  top: 40px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.active-tab {
+  position: absolute;
+  width: 180px;
+  height: 5px;
+  left: 75px;
+  top: 100px;
+
+  background: #FFC700;
+}

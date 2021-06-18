@@ -1,0 +1,116 @@
+.module {
+  position: absolute;
+  width: 776px;
+  height: 140.66px;
+  left: 75px;
+  top: 150px;
+
+}
+
+.module-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(110.62deg, rgba(255, 255, 255, 0.25) 6.39%, rgba(255, 255, 255, 0) 53.34%);
+  mix-blend-mode: normal;
+
+  border-radius: 21.33px;
+  border: 1px solid #afafaf;
+
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.module-title {
+  position: absolute;
+  top: 40px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 92.3%;
+  /* identical to box height, or 51px */
+
+  color: #FFFFFF;
+}
+
+.module-earn-btn {
+  position: absolute;
+  width: 140px;
+  height: 20px;
+  right: 20px;
+  top: 10px;
+}
+
+.module-earn-btn-txt {
+  position: absolute;
+
+  width:100%;
+  height:100%;
+  text-align:center;
+  top:2px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* line-height: 26px; */
+
+  color: #FFFFFF;
+}
+
+.module-earn-btn-style {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: #00AA4F;
+  box-shadow: 0px 2.33px 2.33px rgba(0, 0, 0, 0.25);
+  border-radius: 8.66px;
+}
+
+.module-bar {
+  position: absolute;
+  width: 450px;
+  height: 7px;
+  top: 100px;
+}
+
+.module-bar-left {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: #EAEAEA;
+  border-radius: 20px;
+}
+
+.module-bar-completed {
+  position: absolute;
+  width: 450px;
+  height: 100%;
+
+  background: linear-gradient(90deg, #FFC700 0%, #FF655B 49.48%, #FF00B8 100%);
+  border-radius: 20px;
+}
+
+.module-bar-txt {
+  position: absolute;
+  top: 110px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #FFFFFF;
+}
